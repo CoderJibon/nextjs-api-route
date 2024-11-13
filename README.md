@@ -1,5 +1,10 @@
 next js api routes
 
+//part
+app/api/devs/route.js
+
+```code
+
 import { NextResponse } from "next/server.js";
 
 export async function GET(req) {
@@ -30,3 +35,5 @@ export async function DELETE(req, { params }) {
 // const id = await params.id;
 return NextResponse.json({ name: "jibon roy" });
 }
+
+```
